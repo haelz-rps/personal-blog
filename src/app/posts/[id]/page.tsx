@@ -9,15 +9,17 @@ export async function generateStaticParams() {
 }
 
 // This function generates the metadata for the page (e.g., the title)
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const postData = await getPostData(params.id);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
+  const postData = await getPostData(resolvedParams.id);
   return {
     title: postData.title,
   };
 }
 
-export default async function Post({ params }: { params: { id: string } }) {
-  const postData = await getPostData(params.id);
+export default async function Post({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
+  const postData = await getPostData(resolvedParams.id);
 
   if (!postData) {
     notFound();
