@@ -216,7 +216,7 @@ Uma dica para ajudar nos testes de *relabeling* é a ferramenta [relabeler](h
 
 # **Resumo**
 
-É importante ter em mente que esse tipo de abordagem agrega muito valor à sua pilha de monitoramento. Por isso, torna-se necessária uma definição clara das métricas a serem expostas e de como lidar com novas métricas que possam surgir no futuro. É aconselhável que esse trabalho seja feito periodicamente.
+É importante ter em mente que esse tipo de abordagem agrega muito valor à sua stack de monitoramento. Por isso, torna-se necessária uma definição clara das métricas a serem expostas e de como lidar com novas métricas que possam surgir no futuro. É aconselhável que esse trabalho seja feito periodicamente.
 
 O foco do Prometheus deve ser naquilo que realmente importa para o seu sistema.
 
