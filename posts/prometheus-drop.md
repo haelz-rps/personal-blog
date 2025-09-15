@@ -62,7 +62,7 @@ Todo o processo abaixo utilizará o ***mimirtool analyze*** - esse comando permi
 
 ### **Coletando dados do Grafana**
 
-Primeiro, é preciso criar uma API Key no Grafana. Você pode criar um Service Account na UI do Grafana e, em seguida, gerar um Token para ele.
+Primeiro, é preciso criar uma API Key no Grafana. Você pode criar um Service Account na UI do [Grafana](https://grafana.com/docs/grafana/latest/administration/service-accounts/) e, em seguida, gerar um Token para ele.
 
 Com a API Key em mãos, execute o comando:
 
