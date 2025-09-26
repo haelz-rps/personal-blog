@@ -1,6 +1,6 @@
 ---
 title: 'Onde encontrar Observabilidade'
-date: '2025-09-15'
+date: '2025-09-26'
 author: 'Raphael Santos'
 author_image: '/images/me.jpg'
 post_image: '/images/obs.png'
